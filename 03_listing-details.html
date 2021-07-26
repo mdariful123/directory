@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexlist - Traveling Html Tamplate Preview</title>
+
+    <!-- fav-icon -->
+    <link rel="icon" href="img/fav.png" type="image/png" sizes="16x16">
+
+
+    <!------------------ CSS-files -------------------->
+    <!--BootStrap-Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Slick-Slider-Css-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!--FontWosam-Icon-Css-->
+    <link rel="stylesheet" href="css/fontwosam.min.css">
+    <!--Mani-Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Responsive-Css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!------------ 01 header-start------------>
+    
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler toggle-edit" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto manu">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link " href="index.html">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="06_category.html">about <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                listings
+                            </a>
+                            <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="02_popular_listing.html">Popular Listing</a>
+                                <a class="dropdown-item" href="03_listing-details.html">Listing Details</a>
+                                <a class="dropdown-item" href="07_add_listing.html">Add Listing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="04_Blog.html">news <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                pages
+                            </a>
+                            <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="04_Blog.html">Blog</a>
+                                <a class="dropdown-item" href="05_Blogs-Details.html">Blogs Details</a>
+                                <a class="dropdown-item" href="08_CheckOut.html">CheckOut</a>
+                                <a class="dropdown-item" href="09_pricing_table.html">Pricing Table</a>
+                                <a class="dropdown-item" href="10_Contact.html">Contact Us</a>
+                            </div>
+                        </li>
+                        <a href="#" class="top-btn">add listings</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="icon">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user-alt"></i></a>
+        </div>
+    </header>
+    
+    <!------------ header-End -------------->
+
+
+    <!------------ 02-Home-section-start---->
+
+    <section class="home home-parallel section-padding" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="home-content-wrap">
+                        <div class="home-content">
+                            <h1>Listing Details</h1>
+                            <a href="index.html">home</a>
+                            <span>
+                                <i class="fas fa-angle-right"></i>
+                            </span>
+                            <a href="03_listing-details.html">listing Details</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--=========== 02-Home-section-End ============-->
+
+
+
+
+    <!--=========== 03-listing-details-Start ============-->
+
+    <section class="listing-details section-padding" id="listing-detalis">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="listing-details-left">
+                        <div class="restaurant-info">
+                            <div class="restaurant-info-top">
+                                <div class="row">
+                                    <div class="col-md-3 p-md-0">
+                                        <div class="resta-info-img">
+                                            <img class="img-fluid" src="img/listing/01.jpg" alt="restaurant">
+                                            <img class="img-fluid" src="img/listing/a1.png" alt="listing">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-9 p-0 mt-4 mt-md-4">
+                                        <div class="resta-info-contact">
+                                            <a href="#"><h3>Liman Restaurent</h3></a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#" class="card-contact">
+                                                        <i class="fas fa-map-marker-alt">
+                                                        <span>New York,Barlin</span></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="card-contact">
+                                                        <i class="fas fa-phone"></i>
+                                                        <span>+889 7876 873</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="card-rating">
+                                                        <span>5.0</span>
+                                                        <p>100+rating</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  <!--restaurant-info-End-->
+
+                        <div class="top-info-overview">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link overview-btn-active active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Overview</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link overview-btn-active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Reviews</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link overview-btn-active" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Add Review</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content overview-content" id="pills-tabContent">
+
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse
+                                    quat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum the
+                                    dolore eu fugiat nulla pariatur.
+                                    </p>
+
+                                    <p>
+                                        Excepteur sint occaecat cupidatat non the og proident, sunt in culpa qui do a officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis is te natus error sit voluptatem accusantium dolorem que laudantium, totam re
+                                        maperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto the beatae vitae dicta sunt explicabo. 
+                                    </p>
+
+                                    <p>
+                                        Nemo enim ipsam a voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse ntur magni dolores eos qui ratione voluptatem.
+                                    </p>
+
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse
+                                        quat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum the
+                                        dolore eu fugiat nulla pariatur.
+                                        </p>
+    
+                                        <p>
+                                            Excepteur sint occaecat cupidatat non the og proident, sunt in culpa qui do a officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis is te natus error sit voluptatem accusantium dolorem que laudantium, totam re
+                                            maperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto the beatae vitae dicta sunt explicabo. 
+                                        </p>
+    
+                                        <p>
+                                            Nemo enim ipsam a voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse ntur magni dolores eos qui ratione voluptatem.
+                                        </p>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to do tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse
+                                        quat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum the
+                                        dolore eu fugiat nulla pariatur.
+                                        </p>
+    
+                                        <p>
+                                            Excepteur sint occaecat cupidatat non the og proident, sunt in culpa qui do a officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis is te natus error sit voluptatem accusantium dolorem que laudantium, totam re
+                                            maperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto the beatae vitae dicta sunt explicabo. 
+                                        </p>
+    
+                                        <p>
+                                            Nemo enim ipsam a voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse ntur magni dolores eos qui ratione voluptatem.
+                                        </p>
+                                </div>
+                            </div>
+                        </div>  <!--Top-Info-Overview-End-->
+
+                        <div class="resta-client-review">
+                            <h4 class="restau-title">Reviews (32)</h4>
+                            <ul>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-3 p-0">
+                                            <div class="client-review-img">
+                                                <img src="img/listing/client-pic.png" alt="client-pic">
+                                            </div>
+                                        </div>
+                                        <div class="col-8 p-0">
+                                        
+                                            <div class="name-star">
+                                                <div class="row">
+                                                    <div class="col-6 p-0">
+                                                        <div class="client-name">
+                                                            <a href="#">Thomas Jerbin</a> <br>
+                                                            <span> June 12,  2017</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6 p-0">
+                                                        <div class="review-star float-right">
+                                                            <ul>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="client-comment">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to do tempor incididunt ut labore et dolore of to magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  <!--row-End-->
+                                </li> <!--li-end-->
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-3 p-0">
+                                            <div class="client-review-img">
+                                                <img src="img/listing/client-pic.png" alt="client-pic">
+                                            </div>
+                                        </div>
+                                        <div class="col-8 p-0">
+                                        
+                                            <div class="name-star">
+                                                <div class="row">
+                                                    <div class="col-6 p-0">
+                                                        <div class="client-name">
+                                                            <a href="#">Thomas Jerbin</a> <br>
+                                                            <span> June 12,  2017</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6 p-0">
+                                                        <div class="review-star float-right">
+                                                            <ul>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="client-comment">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to do tempor incididunt ut labore et dolore of to magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  <!--row-End-->
+                                </li> <!--li-end-->
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-3 p-0">
+                                            <div class="client-review-img">
+                                                <img src="img/listing/client-pic.png" alt="client-pic">
+                                            </div>
+                                        </div>
+                                        <div class="col-8 p-0">
+                                        
+                                            <div class="name-star">
+                                                <div class="row">
+                                                    <div class="col-6 p-0">
+                                                        <div class="client-name">
+                                                            <a href="#">Thomas Jerbin</a> <br>
+                                                            <span> June 12,  2017</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6 p-0">
+                                                        <div class="review-star float-right">
+                                                            <ul>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="client-comment">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to do tempor incididunt ut labore et dolore of to magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  <!--row-End-->
+                                </li> <!--li-end-->
+
+                                <li>
+                                    <div class="row">
+                                        <div class="col-3 p-0">
+                                            <div class="client-review-img">
+                                                <img src="img/listing/client-pic.png" alt="client-pic">
+                                            </div>
+                                        </div>
+                                        <div class="col-8 p-0">
+                                        
+                                            <div class="name-star">
+                                                <div class="row">
+                                                    <div class="col-6 p-0">
+                                                        <div class="client-name">
+                                                            <a href="#">Thomas Jerbin</a> <br>
+                                                            <span> June 12,  2017</span>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6 p-0">
+                                                        <div class="review-star float-right">
+                                                            <ul>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="client-comment">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to do tempor incididunt ut labore et dolore of to magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  <!--row-End-->
+                                </li> <!--li-end-->
+
+                            </ul>   <!--UL-End-->
+                        </div>  <!--Resta-Client-Review-End-->
+
+                        <div class="add-review-box ">
+                            <h4 class="restau-title">Add Review</h4>
+                            <div class="review-form">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-6 ">
+                                            <div class="add-review-star">
+                                                <p>Your valuable rating for this listing</p>
+                                                <ul>
+                                                    <li><i class="far fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                    <li><i class="far fa-star"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="add-review-btn float-right">
+                                                <button>Upload your Image</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-5">
+                                            <input type="text" placeholder="Name">
+                                        </div>
+                                        <div class="col-12 col-md-7">
+                                            <input type="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <textarea name="" id="" placeholder="Your Text"></textarea>
+                                        </div>
+                                    </div>
+                                    <button class="dflt-btn all-btn-css">Submit</button>
+                                </form>
+                            </div>
+                        </div>  <!--Add-Review-Box-End-->
+                    </div>  <!--listing-details-left-->
+                </div> <!--col-lg-8-End-->
+
+                <div class="col-lg-4 p-lg-0">
+                    <div class="listing-details-right">
+                        <div class="rastau-food-list">
+
+                            <h4 class="restau-title">Pricing</h4>
+                            <div class="rastau-food-list-box">
+                                <ul>
+                                    <li>
+                                        <select name="" id="">
+                                            <option value="">Food Category</option>
+                                            <option value="">burger</option>
+                                            <option value="">Pizza</option>
+                                            <option value="">SandWich</option>
+                                        </select>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="food-name">
+                                                    <a>Classic Burger</a>
+                                                    <p class="m-0">Beef, salad, mayonnaise, spicey</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="food-price">
+                                                    <span>$34</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="food-name">
+                                                    <a>Classic Burger</a>
+                                                    <p class="m-0">Beef, salad, mayonnaise, spicey</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="food-price">
+                                                    <span>$34</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="food-name">
+                                                    <a>Classic Burger</a>
+                                                    <p class="m-0">Beef, salad, mayonnaise, spicey</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="food-price">
+                                                    <span>$34</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>   <!--ul-end-->
+                            </div>  <!--Rastau-Food-list-box-->
+
+                            <div class="rastau-booking">
+                                <h4 class="restau-title">booking</h4>
+                                <div class="rastau-booking-box">
+                                    <ul>
+                                        <li><input type="date" value="12/05/2018"></li>
+                                        <li>
+                                            <select name="" id="">
+                                                <option value="">time slots</option>
+                                                <option value="">time slots 1</option>
+                                                <option value="">time slots 2</option>
+                                                <option value="">time slots 3</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <select name="" id="">
+                                                <option value="">guest</option>
+                                                <option value="">guest 1</option>
+                                                <option value="">guest 2</option>
+                                                <option value="">guest 3</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> <!--Rastau-booking-end-->
+
+                            <div class="restau-opening">
+                                <h4 class="restau-title">Opening Hours</h4>
+                                <div class="restau-opening-box">
+                                    <ul>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-6">Saturday</div>
+                                                <div class="col-6">9 AM - 3 PM</div>
+                                            </div>
+                                            
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-6">Sunday</div>
+                                                <div class="col-6">9 AM - 5 PM</div>
+                                            </div>
+                                            
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-6">Monday</div>
+                                                <div class="col-6">9 AM - 5 PM</div>
+                                            </div>
+                                            
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-6">Tuesday</div>
+                                                <div class="col-6">10 AM - 5 PM</div>
+                                            </div>
+                                            
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-6">Wednesday</div>
+                                                <div class="col-6">10 AM - 5 PM</div>
+                                            </div>
+                                            
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-6">Thursday</div>
+                                                <div class="col-6">12 AM - 5 PM</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row">
+                                                <div class="col-6">Friday</div>
+                                                <div class="col-6">Closed</div>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>  <!--Restau-opening-end-->
+
+                            <div class="restau-map">
+                                <h4 class="restau-title">map</h4>
+                                <div class="restau-map-box">
+                                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=chittagonj%20road&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  <!--listing-details-right-->
+                </div>  <!--col-lg-4-End-->
+            </div>  <!--row-row-->
+        </div>  <!--container-End-->
+    </section>
+
+    <!--=========== 03-listing-details-End ============-->
+
+
+
+
+    <!--=========== Footer-section-Start ===========-->
+    <section class="footer-section section-padding" id="footer-section">
+        <div class="container">
+            <div class="col-8 offset-4">
+                <div class="footer-content">
+                    <h1>Available Android, iOs & <br> Windows Version App</h1>
+                    <div class="footer-button">
+                        <a href="#" class="footer-button-1">
+                            <i class="fab fa-android"></i> android app
+                        </a>
+                        <a class="footer-button-2">
+                            <i class="fab fa-apple"></i> iso app
+                        </a>
+                        <a class="footer-button-3">
+                            <i class="fab fa-windows"></i> Windows app
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========== Footer-section-End ===========-->
+
+
+
+
+    <!------------------ js-files -------------------------->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <!--jQuery-Js-->
+    <script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
+    <!--BootStarp-Js-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Slick-Slider-Js-->
+    <script src="js/slick.min.js"></script>
+    <!--Counter-Js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!--Main-Js-->
+    <script src="js/main.js"></script>
+    <!------------------------------------------------------>
+</body>
+
+</html>

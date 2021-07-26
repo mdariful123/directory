@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexlist - Traveling Html Tamplate Preview</title>
+
+    <!-- fav-icon -->
+    <link rel="icon" href="img/fav.png" type="image/png" sizes="16x16">
+
+
+    <!------------------ CSS-files -------------------->
+    <!--BootStrap-Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Slick-Slider-Css-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!--FontWosam-Icon-Css-->
+    <link rel="stylesheet" href="css/fontwosam.min.css">
+    <!--Mani-Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Responsive-Css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+
+
+<body>
+
+    <!------------ 01 header-start------------>
+
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler toggle-edit" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto manu">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link " href="index.html">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="06_category.html">about <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                listings
+                            </a>
+                            <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="02_popular_listing.html">Popular Listing</a>
+                                <a class="dropdown-item" href="03_listing-details.html">Listing Details</a>
+                                <a class="dropdown-item" href="07_add_listing.html">Add Listing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="04_Blog.html">news <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                pages
+                            </a>
+                            <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="04_Blog.html">Blog</a>
+                                <a class="dropdown-item" href="05_Blogs-Details.html">Blogs Details</a>
+                                <a class="dropdown-item" href="08_CheckOut.html">CheckOut</a>
+                                <a class="dropdown-item" href="09_pricing_table.html">Pricing Table</a>
+                                <a class="dropdown-item" href="10_Contact.html">Contact Us</a>
+                            </div>
+                        </li>
+                        <a href="#" class="top-btn">add listings</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="icon">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user-alt"></i></a>
+        </div>
+    </header>
+    
+    <!------------ header-End -------------->
+
+
+
+
+    <!------------ 02 Home-section-start---->
+
+    <section class="home home-parallel section-padding" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="home-content-wrap">
+                        <div class="home-content">
+                            <h1>Checkout All services</h1>
+                            <a href="index.html">home</a>
+                            <span>
+                                <i class="fas fa-angle-right"></i>
+                            </span>
+                            <a href="pricing_table_09.html">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--=========== 02-Home-section-End ============-->
+
+    <!--=========== 03-Checkout-All-services-section-Star ============-->
+
+    <section class="checkout-section section-padding" id="checkout-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="coupon-code-box">
+                        <label for="Cupon-Code">
+                            <p>Have a coupon? Click here to enter your code</p>
+                        </label>
+                        <div class="row">
+                            <div class="col-8 col-md-9">
+                                <input id="Cupon-Code" type="password" placeholder="Enter Cupon Code">
+                            </div>
+                            <div class="col-4 col-md-3 p-0">
+                                <button class="dflt-btn all-btn-css">apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form action="">
+                <div class="billing-details bill-and-location">
+                    <h3>Billing Details</h3>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <label for="Fast-Name">
+                                <span>Fast Name </span>
+                            </label>
+                            <input id="Fast-Name" type="text">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="Last Name">
+                                <span>Last Name</span>
+                            </label>
+                            <input id="Last Name" type="text">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="E-mail">
+                                <span>E-mail</span>
+                            </label>
+                            <input id="E-mail" type="email">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="Phone">
+                                <span>Phone</span>
+                            </label>
+                            <input id="Phone" type="number">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form action="">
+                <div class="Locetion-box bill-and-location">
+                    <h3>Location</h3>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <label for="City">
+                                <span>City</span>
+                            </label>
+                            <input id="City" type="text">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="State">
+                                <span>State</span>
+                            </label>
+                            <input id="State" type="text">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="Address">
+                                <span>Address</span>
+                            </label>
+                            <input id="Address" type="text">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <label for="Zip-code">
+                                <span>Zip-code</span>
+                            </label>
+                            <input id="Zip-code" type="number">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="paypal-method-box">
+                        <h3>Payment Method</h3>
+                        <div class="paypal">
+                            <input type="radio" id="Paypal" name="pay-method">
+                            <label for="Paypal">
+                                <span>Paypal</span>
+                            </label>
+                            <img src="img/paypal.png" alt="paypal">
+                            <p>You will be redirected to PayPal to complete payment.</p>
+                        </div>
+                    </div>
+
+                    <div class="cradit-card-box">
+                        <input type="radio" id="pay-method" name="pay-method">
+                        <label for="pay-method">
+                            <span>Credit / Debit Card</span>
+                        </label>
+                        <img src="img/pay-cardt.png" alt="pay-card">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="orders-box">
+                        <h3>Your orders</h3>
+                        <ul class="product-box">
+                            <li class="single-product">
+                                <div class="img-and-product-title">
+                                    <img src="img/product.jpg" alt="product">
+                                    <span>Product Title Here</span>
+                                </div>
+                                <div class="number-and-price">
+                                    <span>03</span>
+                                    <span>$62</span>
+                                </div>
+                            </li>
+                            <li class="single-product">
+                                <div class="img-and-product-title">
+                                    <img src="img/product.jpg" alt="product">
+                                    <span>Product Title Here</span>
+                                </div>
+                                <div class="number-and-price">
+                                    <span>03</span>
+                                    <span>$62</span>
+                                </div>
+                            </li>
+                            <li class="single-product">
+                                <div class="img-and-product-title">
+                                    <img src="img/product.jpg" alt="product">
+                                    <span>Product Title Here</span>
+                                </div>
+                                <div class="number-and-price">
+                                    <span>03</span>
+                                    <span>$62</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="total-and-sudtotal">
+                            <div class="total">
+                                <p>SubTotal</p>
+                                <span>$521</span>
+                            </div>
+                            <div class="subtotal">
+                                <p>Total</p>
+                                <span>$2234</span>
+                            </div>
+                        </div>
+                        <button class="dflt-btn all-btn-css">Proceed Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Coutainer-End-->
+    </section>
+    <!--=========== Checkout-All-services-section-End ============-->
+
+
+    <!--=========== Footer-section-Start ===========-->
+    <section class="footer-section section-padding" id="footer-section">
+        <div class="container">
+            <div class="col-8 offset-4">
+                <div class="footer-content">
+                    <h1>Available Android, iOs & <br> Windows Version App</h1>
+                    <div class="footer-button">
+                        <a href="#" class="footer-button-1">
+                            <i class="fab fa-android"></i> android app
+                        </a>
+                        <a class="footer-button-2">
+                            <i class="fab fa-apple"></i> iso app
+                        </a>
+                        <a class="footer-button-3">
+                            <i class="fab fa-windows"></i> Windows app
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========== Footer-section-End ===========-->
+
+
+
+
+    <!------------------ js-files -------------------------->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <!--jQuery-Js-->
+    <script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
+    <!--BootStarp-Js-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Slick-Slider-Js-->
+    <script src="js/slick.min.js"></script>
+    <!--Counter-Js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!--Main-Js-->
+    <script src="js/main.js"></script>
+    <!------------------------------------------------------>
+</body>
+
+</html>

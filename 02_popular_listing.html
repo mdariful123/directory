@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexlist - Traveling Html Tamplate Preview</title>
+
+    <!-- fav-icon -->
+    <link rel="icon" href="img/fav.png" type="image/png" sizes="16x16">
+
+
+
+    <!------------------ CSS-files -------------------->
+    <!--BootStrap-Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Slick-Slider-Css-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!--FontWosam-Icon-Css-->
+    <link rel="stylesheet" href="css/fontwosam.min.css">
+    <!-- AOS-css -->
+    <link rel="stylesheet" href="css/aos.css">
+    <!--Style-Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Responsive-Css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    
+</head>
+
+<body>
+
+    <!------------ 01 header-start------------>
+
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler toggle-edit" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto manu">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link " href="index.html">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="06_category.html">about <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                listings
+                            </a>
+                            <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="02_popular_listing.html">Popular Listing</a>
+                                <a class="dropdown-item" href="03_listing-details.html">Listing Details</a>
+                                <a class="dropdown-item" href="07_add_listing.html">Add Listing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="04_Blog.html">news <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                pages
+                            </a>
+                            <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="04_Blog.html">Blog</a>
+                                <a class="dropdown-item" href="05_Blogs-Details.html">Blogs Details</a>
+                                <a class="dropdown-item" href="08_CheckOut.html">CheckOut</a>
+                                <a class="dropdown-item" href="09_pricing_table.html">Pricing Table</a>
+                                <a class="dropdown-item" href="10_Contact.html">Contact Us</a>
+                            </div>
+                        </li>
+                        <a href="#" class="top-btn">add listings</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="icon">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user-alt"></i></a>
+        </div>
+    </header>
+    
+    <!------------ header-End -------------->
+
+
+    <!------------ 02 Home-section-start---->
+
+    <section class="home home-parallel section-padding" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="home-content-wrap">
+                        <div class="home-content">
+                            <h1>Popular listings</h1>
+                            <a href="index.html">home</a>
+                            <span>
+                                <i class="fas fa-angle-right"></i>
+                            </span>
+                            <a href="02_popular_listing.html">Popular listings</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--=========== Home-section-End ============-->
+
+    <!--=========== 03-More-Listing-section-Start ============-->
+
+    <section class="more-listing section-padding" id="more-listing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="more-listing-left">
+                        <div class="input-div">
+                            <input class="input-div-css" type="text" placeholder="what are you looking for">
+
+                            <div  class="input-div-css">
+                                <select name="" id="">
+                                    <option value="">Category</option>
+                                    <option value="">Category2</option>
+                                    <option value="">Category3</option>
+                                </select>
+                            </div>
+                            <div class="input-div-css">
+                                <select class="no-appe" name="" id="">
+                                    <option value="">Select Location</option>
+                                    <option value="">Category2</option>
+                                    <option value="">Category3</option>
+                                </select>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            
+                        </div>
+                        <h5>listing type</h5>
+                        <div class="check-box-div">
+                            <label for="Event">
+                                <input type="checkbox" id="Event"> Event <br>
+                            </label> <br>
+                            <label for="parking">
+                                <input type="checkbox" id="parking"> Free parking <br>
+                            </label> <br>
+                            <label for="workplace">
+                                <input type="checkbox" id="workplace"> friendly workplace <br>
+                            </label> <br>
+                            <label for="instant">
+                                <input type="checkbox" id="instant"> instant <br>
+                            </label> <br>
+                            <label for="wireless">
+                                <input type="checkbox" id="wireless"> wireless internet <br>
+                            </label> <br>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="more-listing-right">
+                        <div class="listing-right-title">
+                            <div class="row">
+                                <div class="col-12 col-sm-4 col-md-6">
+                                    <h3>Showing 1–10 of 21</h3>
+                                </div>
+                                <div class="col-12 col-sm-8 col-md-6 p-0 text-right">
+                                    <span>SORT BY</span>
+                                    <a href="#" class="dflt-btn all-btn-css">more listing</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="listing-card">
+                                    <!---card-1-->
+                                    <div class="card-img">
+                                        <img src="img/listing/01.jpg" alt="listing-1">
+                                    </div>
+                                    <div class="card-content">
+
+                                        <div class="card-react">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="img/listing/a1.png" alt="icon">
+                                                </div>
+                                                <div class="col-4 offset-6 p-0">
+                                                    <p><i class="fas fa-search-plus"></i></p>
+                                                    <p class="love-react"><i class="fas fa-heart"></i></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-rating">
+                                            <a href="#">
+                                                <span>5.0</span>
+                                                <p>100+rating</p>
+                                            </a>
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="#">
+                                                <h3>liman restaurent</h3>
+                                            </a>
+                                            <p>Lorem ipsum dolor sit amet, consect
+                                                etur adipisicing elit, sed do eiusmod
+                                                ut labore et dolore magna
+                                            </p>
+                                        </div>
+        
+                                        <div class="card-contact">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-phone"></i>
+                                                        <span>+889 7876 873</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <span>new york,Barlin</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!---card-end-->
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="listing-card">
+                                    <!---card-2-->
+                                    <div class="card-img">
+                                        <img src="img/listing/02.jpg" alt="listing-1">
+                                    </div>
+                                    <div class="card-content">
+
+                                        <div class="card-react">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="img/listing/a2.png" alt="icon">
+                                                </div>
+                                                <div class="col-4 offset-6 p-0">
+                                                    <p><i class="fas fa-search-plus"></i></p>
+                                                    <p class="love-react"><i class="fas fa-heart"></i></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-rating">
+                                            <a href="#">
+                                                <span>5.0</span>
+                                                <p>100+rating</p>
+                                            </a>
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="#">
+                                                <h3>liman restaurent</h3>
+                                            </a>
+                                            <p>Lorem ipsum dolor sit amet, consect
+                                                etur adipisicing elit, sed do eiusmod
+                                                ut labore et dolore magna
+                                            </p>
+                                        </div>
+        
+                                        <div class="card-contact">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-phone"></i>
+                                                        <span>+889 7876 873</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <span>new york,Barlin</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!---card-end-->
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="listing-card">
+                                    <!---card-3-->
+                                    <div class="card-img">
+                                        <img src="img/listing/03.jpg" alt="listing-1">
+                                    </div>
+                                    <div class="card-content">
+
+                                        <div class="card-react">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="img/listing/a3.png" alt="icon">
+                                                </div>
+                                                <div class="col-4 offset-6 p-0">
+                                                    <p><i class="fas fa-search-plus"></i></p>
+                                                    <p class="love-react"><i class="fas fa-heart"></i></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-rating">
+                                            <a href="#">
+                                                <span>5.0</span>
+                                                <p>100+rating</p>
+                                            </a>
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="#">
+                                                <h3>liman restaurent</h3>
+                                            </a>
+                                            <p>Lorem ipsum dolor sit amet, consect
+                                                etur adipisicing elit, sed do eiusmod
+                                                ut labore et dolore magna
+                                            </p>
+                                        </div>
+        
+                                        <div class="card-contact">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-phone"></i>
+                                                        <span>+889 7876 873</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <span>new york,Barlin</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!---card-end-->
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="listing-card">
+                                    <!---card-4-->
+                                    <div class="card-img">
+                                        <img src="img/listing/04.jpg" alt="listing-1">
+                                    </div>
+                                    <div class="card-content">
+
+                                        <div class="card-react">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="img/listing/a4.png" alt="icon">
+                                                </div>
+                                                <div class="col-4 offset-6 p-0">
+                                                    <p><i class="fas fa-search-plus"></i></p>
+                                                    <p class="love-react"><i class="fas fa-heart"></i></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-rating">
+                                            <a href="#">
+                                                <span>5.0</span>
+                                                <p>100+rating</p>
+                                            </a>
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="#">
+                                                <h3>liman restaurent</h3>
+                                            </a>
+                                            <p>Lorem ipsum dolor sit amet, consect
+                                                etur adipisicing elit, sed do eiusmod
+                                                ut labore et dolore magna
+                                            </p>
+                                        </div>
+        
+                                        <div class="card-contact">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-phone"></i>
+                                                        <span>+889 7876 873</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <span>new york,Barlin</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!---card-end-->
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="listing-card">
+                                    <!---card-5-->
+                                    <div class="card-img">
+                                        <img src="img/listing/05.jpg" alt="listing-1">
+                                    </div>
+                                    <div class="card-content">
+
+                                        <div class="card-react">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="img/listing/a5.png" alt="icon">
+                                                </div>
+                                                <div class="col-4 offset-6 p-0">
+                                                    <p><i class="fas fa-search-plus"></i></p>
+                                                    <p class="love-react"><i class="fas fa-heart"></i></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-rating">
+                                            <a href="#">
+                                                <span>5.0</span>
+                                                <p>100+rating</p>
+                                            </a>
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="#">
+                                                <h3>liman restaurent</h3>
+                                            </a>
+                                            <p>Lorem ipsum dolor sit amet, consect
+                                                etur adipisicing elit, sed do eiusmod
+                                                ut labore et dolore magna
+                                            </p>
+                                        </div>
+        
+                                        <div class="card-contact">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-phone"></i>
+                                                        <span>+889 7876 873</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <span>new york,Barlin</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!---card-end-->
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="listing-card">
+                                    <!---card-6-->
+                                    <div class="card-img">
+                                        <img src="img/listing/06.jpg" alt="listing-1">
+                                    </div>
+                                    <div class="card-content">
+
+                                        <div class="card-react">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <img src="img/listing/a6.png" alt="icon">
+                                                </div>
+                                                <div class="col-4 offset-6 p-0">
+                                                    <p><i class="fas fa-search-plus"></i></p>
+                                                    <p class="love-react"><i class="fas fa-heart"></i></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-rating">
+                                            <a href="#">
+                                                <span>5.0</span>
+                                                <p>100+rating</p>
+                                            </a>
+                                        </div>
+                                        <div class="card-title">
+                                            <a href="#">
+                                                <h3>liman restaurent</h3>
+                                            </a>
+                                            <p>Lorem ipsum dolor sit amet, consect
+                                                etur adipisicing elit, sed do eiusmod
+                                                ut labore et dolore magna
+                                            </p>
+                                        </div>
+        
+                                        <div class="card-contact">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-phone"></i>
+                                                        <span>+889 7876 873</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <a href="#">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <span>new york,Barlin</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!---card-end-->
+                            </div>
+                        </div>
+                        <!--row-end-->
+                        <div class="listing-right-footer">
+                            <ul>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=========== More-Listing-section-Start ============-->
+
+    <!--=========== Footer-section-Start ===========-->
+    <section class="footer-section section-padding" id="footer-section">
+        <div class="container">
+            <div class="col-8 offset-4">
+                <div class="footer-content">
+                    <h1>Available Android, iOs & <br> Windows Version App</h1>
+                    <div class="footer-button">
+                        <a href="#" class="footer-button-1">
+                            <i class="fab fa-android"></i> android app
+                        </a>
+                        <a class="footer-button-2">
+                            <i class="fab fa-apple"></i> iso app
+                        </a>
+                        <a class="footer-button-3">
+                            <i class="fab fa-windows"></i> Windows app
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========== Footer-section-End ===========-->
+
+
+
+
+    <!------------------ js-files -------------------------->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <!--jQuery-Js-->
+    <script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
+    <!--BootStarp-Js-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Slick-Slider-Js-->
+    <script src="js/slick.min.js"></script>
+    <!--Counter-Js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- AOS-Js -->
+    <script src="js/aos.js"></script>
+    <!--Main-Js-->
+    <script src="js/main.js"></script>
+    <!------------------------------------------------------>
+</body>
+
+</html>

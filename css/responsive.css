@@ -1,0 +1,728 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* ============ Page-01-Responsive-Css================== */
+	.ctg-list button {
+        width: 136px;
+    }
+    .ctg-item img {
+        height: 40px;
+    }
+    .ctg-active:before {
+        left: 35%;
+        z-index: -1;
+    }
+    .ctg-item {
+        font-size: 13px;
+        padding: 20px 0;
+    }
+    .content-title h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .content-title p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 45px;
+    }
+    .cummunity-left h1 {
+        font-size: 50px;
+    }
+    .cummunity-left {
+        margin: 20px 0;
+    }
+    .happening-item {
+        width: 305px;
+        height: 340px;
+    }
+    .item-contact {
+        font-size: 11px;
+    }
+    .party-listing-card-content img {
+        width: 100%;
+        height: 330px;
+    }
+    .happening-item-wrap button.slick-prev{
+        right: 9%;
+        top: -115px;
+    }
+    .party-listing-card-content h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .party-listing-card-footer a:nth-child(1) {
+        padding: 11px 28px 8px 30px;
+        font-size: 10px;
+    }
+    .party-listing-card-footer {
+        margin: 0 15px 25px 20px;
+    }
+
+     /* ============ Page-03-Responsive-Css================== */
+    .food-price span {
+        padding: 0px 0 0 0;
+        position: relative;
+        left: -18px;
+        font-size: 14px;
+    }
+
+    /* ============ Page-05-Responsive-Css================== */
+    .author-img img {
+        height: 100px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 0;
+        width: 100px;
+    }
+
+    /* ============ blog-04-Responsive-Css================== */
+    .blog-social-icon{
+        padding: 285px 0px 0px 400px;
+      }
+
+
+}
+
+
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* ============ Page-01-Responsive-Css================== */
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+        
+        background: linear-gradient(100deg , rgba(24, 27, 80, 1) 45%, rgba(66, 33, 120, 1) 92%);
+        padding: 14px;
+        margin: 2px px;
+        text-align: center;
+        position: relative;
+        top: 22px;
+        left: -85px;
+        width: 139%;
+    }
+    .manu li a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+    }
+    .manu li a:hover{
+        background: rgb(24, 27, 80) !important;
+    }
+    .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 21px;
+        left: -85px;
+        border-radius: 0;
+        width: 139%;
+        border: none;
+    }
+    .top-btn {
+        display: none;
+    }
+    .home-right{
+        display: none;
+    }
+    .ctg-list button {
+        width: 100px;
+    }
+    .ctg-item img {
+        height: 40px;
+    }
+    .ctg-active:before {
+        left: 35%;
+        z-index: -1;
+    }
+    .ctg-item {
+        font-size: 8px;
+        padding: 8px 0;
+    }
+    .btn-m-top {
+        position: relative;
+        top: -146px !important;
+        left: 400px !important;
+    }
+    .party-listing-card-content img {
+        width: 100%;
+        height: 330px;
+    }
+    .party-listing-right h3 {
+        font-size: 35px;
+        line-height: 50px;
+        padding: 25px 0 15px 0;
+    }
+    .happening-item-wrap button.slick-prev{
+        right: 16%;
+        top: -40px;
+    }
+    .happening-item-wrap button.slick-next{
+        right: 5%;
+        top: -40px;
+    }
+    .happening-item{
+        width: 225px;
+        height: 260px;
+    }
+    .happening-content h3 {
+        font-size: 27px;
+    }
+    .happening-content {
+        padding: 7px;
+    }
+    .item-contact {
+        font-size: 10px;
+        margin: 145px 0 0 16px;
+    }
+    
+    .footer-content h1 {
+        font-size: 40px;
+        line-height: 40px;
+        position: absolute;
+        top: -50px;
+        left: -25%;
+    }
+    .footer-button {
+        font-size: 14px;
+        line-height: 40px;
+        position: absolute;
+        top: -30px;
+        left: -5%;
+    }
+    .footer-button a {
+        margin: 5px 0;
+        display: block;
+        position: relative;
+        left: 26%;
+        top: 45px;
+        padding: 2px;
+        width: 200px;
+    }
+
+    /* ============ Page-05-Responsive-Css================== */
+    .author-img img {
+        height: 100px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 0;
+        width: 100px;
+    }
+
+    /* ============ Page-05-Responsive-Css================== */
+    .blog-add-review button {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .blog-add-review button:hover {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    /* ============ Page-10-Responsive-Css================== */
+    .contact-form-box {
+        padding: 70px 21px;
+        width: 100%;
+    }
+}
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* ============ Page-01-Responsive-Css================== */
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+        
+        background: linear-gradient(100deg , rgba(24, 27, 80, 1) 45%, rgba(66, 33, 120, 1) 92%);
+        padding: 14px;
+        margin: 2px px;
+        text-align: center;
+        position: relative;
+        top: 22px;
+        left: -85px;
+        width: 139%;
+    }
+    .manu li a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+    }
+    .manu li a:hover{
+        background: rgb(24, 27, 80) !important;
+    }
+    
+    .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 21px;
+        left: -85px;
+        border-radius: 0;
+        width: 139%;
+        border: none;
+    }
+    .top-btn {
+        display: none;
+    }
+    .home p {
+        font-size: 12px;
+    }
+    .home h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .home-right{
+        display: none;
+    }
+    .home-input {
+        width: 100%;
+        margin-top: 25px;
+        height: 56px;
+        border: 1px solid #fbfbfb;
+    }
+    .home-input button {
+        padding: 16px 22px;
+        font-size: 15px;
+        right: -2px;
+        top: -1px;
+        border: 1px solid #fff;
+    }
+    .home-input button:hover {
+        padding: 16px 22px;
+        border: 1px solid #4C69FF;
+    }
+    .btn-m-top {
+        position: relative;
+        top: -38px !important;
+        left: 189px !important;
+    }
+    .ctg-list button {
+        width: 80px;
+    }
+    .ctg-item img {
+        height: 40px;
+    }
+    .ctg-active:before {
+        left: 35%;
+        z-index: -1;
+    }
+    .ctg-item {
+        font-size: 8px;
+        padding: 5px 0;
+    }
+    .content-title h2 {
+        font-size: 44px;
+        line-height: 58px;
+    }
+    .cummunity-left h1 {
+        font-size: 50px;
+    }
+    .cummunity-left p {
+        font-size: 14px;
+    }
+    .happening-item-wrap button.slick-prev{
+        right: 14%;
+    }
+    .happening-content{
+        padding: 10px;
+    }
+    .happening-content h3 {
+        font-size: 17px;
+    }
+    .happening-content span {
+        font-size: 13px;
+    }
+    .happening-content p {
+        font-size: 10px;
+    }
+    .item-contact {
+        display: none;
+    }
+    .happening-item {
+        width: 175px;
+        height: 200px;
+        margin: 0 -10px;
+    }
+    .party-listing-right h3 {
+        font-size: 32px;
+        line-height: 37px;
+        padding: 35px 0;
+        position: absolute;
+        left: -15px;
+    }
+    .party-listing-right p {
+        font-size: 16px;
+        line-height: 25px;
+        position: absolute;
+        top: 180px;
+        left: -15px;
+    }
+    .party-listing-right a {
+        position: absolute;
+        left: -15px;
+        top: 397px;
+        font-size: 14px;
+        padding: 18px 39px;
+    }
+    .party-listing-right a:hover {
+        font-size: 14px;
+        padding: 18px 39px;
+    }
+    .footer-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+        position: absolute;
+        top: -50px;
+        left: -27%;
+    }
+    .footer-button {
+        font-size: 12px;
+        line-height: 40px;
+        position: absolute;
+        top: -35px;
+        left: -25%;
+    }
+    .footer-button a {
+        margin: 5px 0;
+        display: block;
+        position: relative;
+        left: 26%;
+        top: 45px;
+        padding: 2px;
+        width: 200px;
+    }
+
+    
+/* ============ blog-04-Responsive-Css================== */
+    .blog-social-icon{
+        padding: 285px 0px 0px 300px;
+}
+
+ /* ============ Page-5-Responsive-Css================== */
+    .author-img img {
+        height: 80px;
+        width: 80px;
+        margin: 0 12px;
+    }
+    .author-details p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0;
+    }
+    .recent-item-content span {
+        font-size: 11px;
+    }
+    .comment-box ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    .comment-box ul li:nth-child(3) {
+        margin-left: 0;
+    }
+    .blog-add-review button {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .blog-add-review button:hover {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+
+    /* ============ Page-5-Responsive-Css================== */
+    .author-img img {
+        height: 80px;
+        width: 80px;
+        margin: 0 12px;
+    }
+    .author-details p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0;
+    }
+    .recent-item-content span {
+        font-size: 11px;
+    }
+    .comment-box ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    .comment-box ul li:nth-child(3) {
+        margin-left: 0;
+    }
+    .blog-add-review button {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .blog-add-review button:hover {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    /* ============ Page-10-Responsive-Css================== */
+    .contact-form-box {
+        padding: 70px 21px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+
+    /* ============ Page-01-Responsive-Css================== */
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+        background: linear-gradient(100deg , rgba(24, 27, 80, 1) 45%, rgba(66, 33, 120, 1) 92%);
+        padding: 14px;
+        margin: 2px px;
+        text-align: center;
+        position: relative;
+        top: 22px;
+        left: -85px;
+        width: 139%;
+    }
+    .manu li a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.123);
+    }
+    .manu li a:hover{
+        background: rgb(24, 27, 80) !important;
+    }
+    .dropdown-menu.header-dropdown.show a {
+        position: relative;
+        left: 5%;
+    }
+    .navbar-nav .dropdown-menu {
+        position: relative;
+        top: 21px;
+        left: -85px;
+        border-radius: 0;
+        width: 139%;
+        border: none;
+    }
+    .top-btn {
+        display: none;
+    }
+    .home p {
+        font-size: 12px;
+    }
+    .home h1 {
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .home-right{
+        display: none;
+    }
+    .home-input {
+        width: 100%;
+        margin-top: 25px;
+        height: 56px;
+        border: 1px solid #fbfbfb;
+    }
+    .home-input button {
+        padding: 16px 22px;
+        font-size: 15px;
+        right: -2px;
+        top: -1px;
+        border: 1px solid #fff;
+    }
+    .home-input button:hover {
+        padding: 16px 22px;
+        border: 1px solid #4C69FF;
+    }
+    .btn-m-top {
+        position: relative;
+        top: -38px !important;
+        left: 189px !important;
+    }
+    .ctg-list{
+        display: none;
+    }
+    .content-title h2 {
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .cummunity-left h1 {
+        font-size: 50px;
+    }
+    .cummunity-left p {
+        font-size: 14px;
+    }
+    .happening-item-wrap button.slick-prev{
+        right: 14%;
+    }
+    .happening-content{
+        padding: 10px;
+    }
+    .happening-content h3 {
+        font-size: 17px;
+    }
+    .happening-content span {
+        font-size: 13px;
+    }
+    .happening-content p {
+        font-size: 10px;
+    }
+    .item-contact {
+        display: none;
+    }
+    .happening-item {
+        width: 155px;
+        height: 200px;
+        margin: 0 -10px;
+    }
+    
+    .party-listing-right h3 {
+        font-size: 27px;
+        line-height: 30px;
+        padding: 40px 0;
+        position: absolute;
+        left: -15px;
+    }
+    .party-listing-right p {
+        font-size: 13px;
+        line-height: 22px;
+        position: absolute;
+        top: 170px;
+        left: -15px;
+    }
+    .party-listing-right a {
+        position: absolute;
+        left: -15px;
+        top: 356px;
+        font-size: 10px;
+        padding: 13px 26px;
+    }
+    .party-listing-right a:hover {
+        padding: 13px 26px;
+        font-size: 10px;
+    }
+    .footer-content h1 {
+        font-size: 26px;
+        line-height: 35px;
+        position: absolute;
+        top: -10px;
+        left: -25%;
+    }
+    .footer-button {
+        font-size: 12px;
+        line-height: 40px;
+        position: absolute;
+        top: 20px;
+        left: -25%;
+    }
+    .footer-button a {
+        margin: 5px 0;
+        display: block;
+        position: relative;
+        left: 26%;
+        top: 45px;
+        padding: 2px;
+        width: 200px;
+    }
+
+    /* ============ Page-2-Responsive-Css================== */
+    .listing-right-title a {
+        padding: 12px 18px;
+        font-size: 10px;
+    }
+    .listing-right-title a:hover {
+        padding: 12px 18px;
+        font-size: 10px;
+    }
+    .listing-right-footer a {
+        padding: 13px 20px;
+    }
+
+    /* ============ Page-3-Responsive-Css================== */
+    .top-info-overview p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .client-review-img img {
+        height: 80px;
+    }
+    .client-comment {
+        font-size: 14px;
+        margin: 5px 0 0 0px;
+    }
+    .add-review-btn.float-right button:nth-child(1) {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+/* ============ blog-04-Responsive-Css================== */
+.blog-social-icon{
+    padding: 285px 0px 0px 180px;
+}
+
+
+.blog-left-footer {
+    margin: 65px 0;
+}
+
+.blog-left-footer a {
+    color: #d1d1d1;
+    background: #fff;
+    padding: 10px 16px;
+    border-radius: 50px;
+    margin: 0 3px;
+    transition: .5s;
+}
+
+
+    /* ============ Page-5-Responsive-Css================== */
+    .author-img img {
+        height: 80px;
+        width: 80px;
+        margin: 0 12px;
+    }
+    .author-details p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0;
+    }
+    .recent-item-content span {
+        font-size: 11px;
+    }
+    .comment-box ul li:nth-child(2) {
+        margin-left: 0;
+    }
+    .comment-box ul li:nth-child(3) {
+        margin-left: 0;
+    }
+    .blog-add-review button {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .blog-add-review button:hover {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+
+    /* ============ Page-10-Responsive-Css================== */
+    .contact-form-box {
+        padding: 70px 21px;
+        width: 100%;
+    }
+
+}

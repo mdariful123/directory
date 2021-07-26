@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexlist - Traveling Html Tamplate Preview</title>
+
+    <!-- fav-icon -->
+    <link rel="icon" href="img/fav.png" type="image/png" sizes="16x16">
+
+
+    <!------------------ CSS-files -------------------->
+    <!--BootStrap-Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Slick-Slider-Css-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!--FontWosam-Icon-Css-->
+    <link rel="stylesheet" href="css/fontwosam.min.css">
+    <!--Mani-Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Responsive-Css-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+
+
+<body>
+
+    <!------------ 01 header-start------------>
+
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler toggle-edit" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto manu">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link " href="index.html">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="06_category.html">about <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                listings
+                            </a>
+                            <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="02_popular_listing.html">Popular Listing</a>
+                                <a class="dropdown-item" href="03_listing-details.html">Listing Details</a>
+                                <a class="dropdown-item" href="07_add_listing.html">Add Listing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="04_Blog.html">news <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                pages
+                            </a>
+                            <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="04_Blog.html">Blog</a>
+                                <a class="dropdown-item" href="05_Blogs-Details.html">Blogs Details</a>
+                                <a class="dropdown-item" href="08_CheckOut.html">CheckOut</a>
+                                <a class="dropdown-item" href="09_pricing_table.html">Pricing Table</a>
+                                <a class="dropdown-item" href="10_Contact.html">Contact Us</a>
+                            </div>
+                        </li>
+                        <a href="#" class="top-btn">add listings</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="icon">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user-alt"></i></a>
+        </div>
+    </header>
+    
+    <!------------ header-End -------------->
+
+
+
+
+    <!------------ 02 Home-section-start---->
+
+    <section class="home home-parallel section-padding" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="home-content-wrap">
+                        <div class="home-content">
+                            <h1>Add Listing</h1>
+                            <a href="index.html">home</a>
+                            <span>
+                                <i class="fas fa-angle-right"></i>
+                            </span>
+                            <a href="07_add_listing.html">add Listings</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--=========== 02-Home-section-End ============-->
+
+
+    <!--=========== 03-Create-Add-Listing-Section-Start ============-->
+
+    <section class="create-add-listing section-padding" id="create-add-listing">
+        <div class="container">
+            <div class="top-notice">
+                <span>Don't Have an Account?</span> <br>
+                <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using <br> Lorem Ipsum is that it has a more-or-less nrmal
+                    distribution of letters.
+                </p>
+            </div>
+            <form action="">
+                <div class="form-col">
+                    <h3>Basic Infotmation</h3>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="title">
+                                <span>Listing Title</span>
+                            </label>
+                            <input id="title" type="text">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="Category">
+                                <span>Category</span>
+                            </label>
+                            <input id="Category" type="text">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="Keywords">
+                                <span>Keywords</span>
+                            </label>
+                            <input id="Keywords" type="number">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            
+            <form action="">
+                <div class="form-col">
+                    <h3>Location</h3>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <label for="City">
+                                <span>City</span>
+                            </label>
+                            <input id="City" type="text">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="State">
+                                <span>State</span>
+                            </label>
+                            <input id="State" type="text">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="Address">
+                                <span>Address</span>
+                            </label>
+                            <input id="Address" type="text">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="Zip-Code">
+                                <span>Zip-Code</span>
+                            </label>
+                            <input id="Zip-Code" type="number">
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form action="">
+                <div class="form-col" style="border: none;">
+                    <h3>Details</h3>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <label for="Link">
+                                <span>Website Link</span>
+                            </label>
+                            <input id="Link" type="text">
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <label for="Email">
+                                <span>Email</span>
+                            </label>
+                            <input id="Email" type="email">
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <label for="Phone">
+                                <span>Phone</span>
+                            </label>
+                            <input id="Phone" type="email">
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <span class="d-block mt-3 mb-2">Social Links</span>
+                            <input type="text" placeholder="https://www.facebook.com/">
+                        </div>
+                        <div class="col-12 col-md-4 mt-md-5">
+                            <span></span>
+                            <input type="text" placeholder="https://www.twitter.com/">
+                        </div>
+                        <div class="col-12 col-md-4 mt-md-5">
+                            <span></span>
+                            <input type="text" placeholder="https://plus.google.com">
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form action="">
+                <div class="social-checkbox">
+                    <p>Special tags</p>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <label for="scheck-1">
+                                <input type="checkbox" id="scheck-1">
+                                <span>Events</span>
+                            </label> <br> <br>
+                            <label for="scheck-2">
+                                <input type="checkbox" id="scheck-2">
+                                <span>Resturant</span>
+                            </label>
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="scheck-3">
+                                <input type="checkbox" id="scheck-3">
+                                <span>Friendly workspace</span>
+                            </label> <br> <br>
+                            <label for="scheck-4">
+                                <input type="checkbox" id="scheck-4">
+                                <span>Special Party</span>
+                            </label>
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="scheck-5">
+                                <input type="checkbox" id="scheck-5">
+                                <span>Wireless Internet</span>
+                            </label> <br> <br>
+                            <label for="scheck-6">
+                                <input type="checkbox" id="scheck-6">
+                                <span>Free Parking</span>
+                            </label>
+                        </div>
+                        <div class="col-lg-2">
+                            <label for="scheck-7">
+                                <input type="checkbox" id="scheck-7">
+                                <span>Instant Book</span>
+                            </label> <br> <br>
+                            <label for="scheck-8">
+                                <input type="checkbox" id="scheck-8">
+                                <span>Open Consert</span>
+                            </label>
+                        </div>
+                        <div class="col-lg-2">
+                            <label for="scheck-9">
+                                <input type="checkbox" id="scheck-9">
+                                <span>Free parking</span>
+                            </label>
+                        </div>
+                    </div>
+                    <!--Row-End-->
+                    <label for="Descriptions">
+                        <p class="my-3">Descriptions</p>
+                    </label>
+                    <textarea name="" id="Descriptions"></textarea>
+                </div>
+                <!--social-checkbox-End-->
+            </form>
+            
+
+            <form action="">
+                <div class="form-col">
+                    <!--Listing-Hours-start-->
+                    <h3>Listing Hours</h3>
+                    <div class="row my-3">
+                        <div class="col-1 mr-4">
+                            <span class="day-name">Sunday</span>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-1 mr-4">
+                            <span class="day-name">Monday</span>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-1 mr-4">
+                            <span class="day-name">Tuesday</span>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-1 mr-4">
+                            <span class="day-name">Wednesday</span>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-1 mr-4">
+                            <span class="day-name">Thursday</span>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="row my-3">
+                        <div class="col-1 mr-4">
+                            <span class="day-name">Friday</span>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col-1 mr-4">
+                            <span class="day-name">Saturday</span>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                    <option value="">Opening Time</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-5 col-md-4">
+                            <div class="select-div">
+                                <select name="" id="">
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                    <option value="">Closing Time</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Listing-Hours-End-->
+            </form>
+
+            <form action="">
+                <div class="form-col">
+                    <h3>Listing Price</h3>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <input type="text" placeholder="Title">
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <input type="text" placeholder="Description">
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class=" listing-price">
+                                <input type="text" placeholder="Price">
+                                <select name="" id="">
+                                    <option value="">USD</option>
+                                    <option value="">BDT</option>
+                                    <option value="">KD</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form action="">    
+                <div class="drop-file-area-wrap">
+                    <h3>Upload Gallery</h3>
+                    <div class="drop-file-area">
+                        <div class="drop-content">
+                            <input id="asdf" type="file">
+                            <!-- <button>+</button> -->
+                            <p>Click here or drop files to upload</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="dflt-btn all-btn-css">Add Listing</button>
+            </form>
+        </div>
+        <!--Container-End-->
+    </section>
+
+    <!--=========== Create-Add-Listing-Section-End ============-->
+
+
+    <!--=========== -Footer-section-Start ===========-->
+    <section class="footer-section section-padding" id="footer-section">
+        <div class="container">
+            <div class="col-8 offset-4">
+                <div class="footer-content">
+                    <h1>Available Android, iOs & <br> Windows Version App</h1>
+                    <div class="footer-button">
+                        <a href="#" class="footer-button-1">
+                            <i class="fab fa-android"></i> android app
+                        </a>
+                        <a class="footer-button-2">
+                            <i class="fab fa-apple"></i> iso app
+                        </a>
+                        <a class="footer-button-3">
+                            <i class="fab fa-windows"></i> Windows app
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========== Footer-section-End ===========-->
+
+
+
+
+
+    <!------------------ js-files -------------------------->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <!--jQuery-Js-->
+    <script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
+    <!--BootStarp-Js-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Slick-Slider-Js-->
+    <script src="js/slick.min.js"></script>
+    <!--Counter-Js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!--Main-Js-->
+    <script src="js/main.js"></script>
+    <!------------------------------------------------------>
+</body>
+
+</html>
